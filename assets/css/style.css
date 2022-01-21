@@ -1,0 +1,125 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #616161;
+  border-radius: 3px;
+}
+
+body {
+  background-image: url("../img/fondo.png");
+  background-size: 100%;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.lang {
+  width: 60%;
+  height: auto;
+  margin: 5px;
+}
+
+.browser {
+  display: block;
+  margin: auto;
+  width: 220px;
+  margin-top: 60px;
+}
+
+.fuente2 {
+  font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+/* Variables de color */
+:root {
+  --color: #03a9f4;
+  --color1: #00629C;
+  --color2: #3b3b3b;
+  --color3: #fff; 
+}
+
+.text-color1 {
+  color: var(--color1);
+}
+
+.text-color2 {
+  color: var(--color2);
+}
+
+/*Texto pequeño*/
+.text_small {
+  text-decoration: none;
+  display: block;
+  font-size: 12px;
+}
+
+/*Texto grande*/
+.text_big {
+  text-decoration: none;
+  display: block;
+  font-size: 30px;
+}
+
+/*Alineaciones de texto*/
+.text_center {
+  text-align: center;
+}
+
+.text_justify {
+  text-align: justify;
+}
+
+/* Boton del menu */
+.buttom {
+  font-size: 16px;
+  border-radius: 5px;
+  color: var(--color3);
+  font-weight: bold;
+  text-decoration: none;
+  background-color: var(--color1);
+  padding: 15px;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.buttom:hover {
+  background-color: var(--color);
+  color: var(--color3);
+  transition: 0.5s;
+}
+
+/* Estilos de la tabla */
+table {
+  margin: auto;
+  background-color: var(--color3);
+  text-align: center;
+  border-collapse: collapse;
+  width: 100%;
+  left: 0%;
+}
+th, td {
+  padding: 10px;
+  border-right: solid 1px #F5F5F5;
+}
+tr:nth-child(even) {
+  background-color: #E0E0E0;
+}
+td:hover {
+  background-color: var(--color1);
+  color: var(--color3);
+}
